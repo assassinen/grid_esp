@@ -1,0 +1,17 @@
+.pio/
+.build/
+__pycache__/
+*.pyc
+*.bin
+*.elf
+*.map
+build/
+out/
+.DS_Store
+pmbootstrap/
+pmb/
+images/
+logs/
+.clang_tidy
+.gcc-flags.json
+.piolibdeps/
