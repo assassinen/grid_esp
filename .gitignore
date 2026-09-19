@@ -1,8 +1,28 @@
+# PlatformIO (ESP32)
+.pio/
+.build/
+build/
+*.bin
+*.elf
+partitions.bin
+bootloader.bin
+
+# Python
 __pycache__/
 *.pyc
 .venv/
-.env
-*.egg-info/
-.pio/
-__debug_bin*
+venv/
+
+# Docker
+Dockerfile.override
+.dockerignore
+
+# macOS
 .DS_Store
+Thumbs.db
+
+# Общие
+.idea/
+.vscode/
+*.log
+
